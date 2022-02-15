@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    background-color: #393E46;
+    font-size: 50px;
+}
+
+.normalText{
+    color: #EEEEEE;
+}
+
+.warningText{
+    color: #FF2E63;
+}
+
+.boxArea {
+    width: 60%;
+    margin: auto;
+    height: 500px;
+}
+
+#generatedCode {
+    color: #08D9D6;
+    font-size: 70px;
+    letter-spacing: 20px;
+}
+
+#generatedCode:hover{
+    color: #00ADB5;
+}
+
+#newCodeBtt {
+    width: 100px;
+    height: 50px;
+    font-family: 'Staatliches', cursive;
+    background-color: #222831;
+    border: #EEEEEE solid 1px;
+    color: #EEEEEE;
+}
+
+#newCodeBtt:hover{
+    color: #FF2E63;
+}
+
+#newCodeBtt:active{
+    color: #FF2E63;
+    border: #FF2E63 solid 1px;
+}
+
+.makeItBigger{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
